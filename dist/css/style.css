@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Tahoma_semibold";
+  font-display: swap;
+  src: url("../fonts/Tahoma_semibold.woff") format("woff"), url("../fonts/Tahoma_semibold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@supports (-webkit-appearance:none){
+
+}
