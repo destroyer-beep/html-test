@@ -44,9 +44,6 @@
 
     .product-background {
         height: 100%;
-        background-image: url('/img/background.svg');
-        background-repeat: no-repeat;
-        background-position: 20px -75px;
 
         @media (max-width: 320px) {
             background-size: 165%;
@@ -72,7 +69,11 @@
             }
 
             .product-image {
-                margin: 149px 0 0 57px;
+                padding: 149px 0 0 57px;
+                background-image: url('/img/background.svg');
+                background-repeat: no-repeat;
+                background-position: 50px -70px;
+                background-size: 150%;
 
                 @media (max-width: 320px) {
                     width: 223px;

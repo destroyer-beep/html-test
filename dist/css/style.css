@@ -51,9 +51,6 @@
 
 .product .product-background {
   height: 100%;
-  background-image: url("/img/background.svg");
-  background-repeat: no-repeat;
-  background-position: 20px -75px;
 }
 
 .product .product-background .product-name {
@@ -63,7 +60,11 @@
 }
 
 .product .product-background .product-image {
-  margin: 149px 0 0 57px;
+  padding: 149px 0 0 57px;
+  background-image: url("/img/background.svg");
+  background-repeat: no-repeat;
+  background-position: 50px -70px;
+  background-size: 150%;
 }
 
 .product .product-background .product-sign {
@@ -386,7 +387,7 @@
   }
 }
 @supports (-webkit-appearance:none){
-.product .product-background{background-image:url("/img/background.svg")}
+.product .product-background .product-image{background-image:url("/img/background.svg")}
 }
 
  @media (max-width: 320px){
